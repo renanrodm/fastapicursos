@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtualenv
+venv/
+famp-secao04/
+.env/
+.env
+
+# VSCode
+.vscode/
+
+# Outros caches
+*.sqlite3
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
