@@ -9,7 +9,7 @@ from pydantic import BaseModel as SCBaseModel
 
 
 class CursoSchema(SCBaseModel):
-    id: Optional[int] #Opcional porque é criado pelo proprio banco de dados.
+    id: Optional[int] = None #Opcional porque é criado pelo proprio banco de dados.
     titulo: str
     aulas: int
     horas: int
